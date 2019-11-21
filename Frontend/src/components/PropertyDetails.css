@@ -1,0 +1,42 @@
+.list-inline-item {
+    font-family: Lato,Roboto,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight:500;
+    font-size: 20px;
+}
+
+.FixedHeightContainer
+{
+  height: 900px;
+  padding:3px; 
+ 
+}
+
+.dot {
+    height: 5px;
+    width: 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.list-inline {
+    -webkit-box-direction: normal;
+    line-height: 2em;
+}
+
+.para-font {
+    font-family: Lato,Arial,Helvetica Neue,sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    font-weight: 350;
+}
+
+.topnav a{
+    color: black !important;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 18px;
+    border-bottom: 3px solid transparent;
+    margin: 0;
+    background: #D6EBF2;
+}

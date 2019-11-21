@@ -1,0 +1,276 @@
+.myh4{
+    font-family: Lato,Roboto,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+
+.myh6{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Lato,Roboto,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+
+.container-pad {
+    padding: 30px 15px;
+    margin-left : 20px;
+    margin-right: 0px;
+    width : 1600px;
+}
+
+.form-row.myformrow{
+    margin-left: 250px;
+}
+.navbar.navbar-default >.container{
+   max-width: 1800px;
+}
+
+.bgc-fff {
+    background-color: rgb(216, 245, 157)!important;
+}
+.box-shad {
+    -webkit-box-shadow: 1px 1px 0 rgba(0,0,0,.2);
+    box-shadow: 1px 1px 0 rgba(0,0,0,.2);
+}
+.brdr {
+    border: 1px solid #ededed;
+}
+
+#blue{
+    color: blue !important;
+  }
+
+/* Font changes */
+.fnt-smaller {
+    font-size: .9em;
+}
+.fnt-lighter {
+    color: #bbb;
+}
+
+/* Padding - Margins */
+.pad-10 {
+    padding: 10px!important;
+}
+.mrg-0 {
+    margin: 0!important;
+}
+.btm-mrg-10 {
+    margin-bottom: 10px!important;
+}
+.btm-mrg-20 {
+    margin-bottom: 20px!important;
+}
+
+
+
+/** MEDIA QUERIES **/
+@media only screen and (max-width: 991px) {
+    #property-listings .property-listing {
+        padding: 10px!important;
+    }
+    #property-listings .property-listing a {
+        margin: 0;
+    }
+    #property-listings .property-listing .media-body {
+        padding: 10px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #property-listings .property-listing img {
+        max-width: 180px;
+    }
+}
+
+.view {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+	opacity: 0;
+}
+
+.myborder1{
+    border: 4px solid transparent;
+    border-radius: 4px;
+    box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.05);
+    width:1000px;
+}
+
+#myheading{
+    box-shadow: inset 0px 0px 0px 0px;
+    border: none;
+    padding:0px;
+    width : 500px;
+    height : 50px;
+    background-color: white;
+    color :black;
+    font-size: 20px;
+    font-weight: 450;
+    font-family: Lato,Arial,Helvetica Neue,sans-serif;
+    background-color: rgb(216, 245, 157)!important;
+}
+
+#mydescription{
+    box-shadow: inset 0px 0px 0px 0px;
+    border: none;
+    padding:0px;
+    width : 780px;
+    height : 50px;
+    background-color: white;
+    color :black;
+    font-size: 15px;
+    font-weight: 450;
+    font-family: Lato,Arial,Helvetica Neue,sans-serif;
+    background-color: rgb(216, 245, 157)!important;
+}
+
+#mybedroom{
+    box-shadow: inset 0px 0px 0px 0px;
+    border: none;
+    padding:0px;
+    width : 20px;
+    background-color: white;
+    font-size: 15px;
+    color :black;
+    font-family: Lato,Arial,Helvetica Neue,sans-serif;
+    background-color: rgb(216, 245, 157)!important;
+}
+
+#type{
+    box-shadow: inset 0px 0px 0px 0px;
+    border: none;
+    padding:0px;
+    width : 100px;
+    background-color: white;
+    font-size: 15px;
+    color :black;
+    font-family: Lato,Arial,Helvetica Neue,sans-serif;
+    background-color: rgb(216, 245, 157)!important;
+}
+
+#mybathroom{
+    box-shadow: inset 0px 0px 0px 0px;
+    border: none;
+    padding:0px;
+    width : 20px;
+    background-color: white;
+    font-size: 15px;
+    color :black;
+    font-family: Lato,Arial,Helvetica Neue,sans-serif;
+    background-color: rgb(216, 245, 157)!important;
+}
+
+#mysleep{
+    box-shadow: inset 0px 0px 0px 0px;
+    border: none;
+    padding:0px;
+    width : 60px;
+    background-color: white;
+    font-size: 15px;
+    color :black;
+    font-family: Lato,Arial,Helvetica Neue,sans-serif;
+    background-color: rgb(216, 245, 157)!important;
+}
+
+#mysymbol{
+    box-shadow: inset 0px 0px 0px 0px;
+    border: none;
+    padding:0px;
+    width : 5px;
+    background-color: white;
+    font-size: 15px;
+    color :black;
+    font-family: Lato,Arial,Helvetica Neue,sans-serif;
+    background-color: rgb(216, 245, 157)!important;
+}
+
+#myaddress{
+    box-shadow: inset 0px 0px 0px 0px;
+    border: none;
+    padding:0px;
+    width : 690px;
+    height : 50px;
+    background-color: white;
+    font-size: 15px;
+    color :black;
+    font-family: Lato,Arial,Helvetica Neue,sans-serif;
+    background-color: rgb(216, 245, 157)!important;
+}
+
+#mycity{
+    box-shadow: inset 0px 0px 0px 0px;
+    border: none;
+    padding:0px;
+    width : 150px;
+    background-color: white;
+    font-size: 15px;
+    color :black;
+    font-family: Lato,Arial,Helvetica Neue,sans-serif;
+    background-color: rgb(216, 245, 157)!important;
+}
+
+#mystate{
+    box-shadow: inset 0px 0px 0px 0px;
+    border: none;
+    padding:0px;
+    width : 150px;
+    background-color: white;
+    font-size: 15px;
+    color :black;
+    font-family: Lato,Arial,Helvetica Neue,sans-serif;
+    background-color: rgb(216, 245, 157)!important;
+}
+
+#mycountry{
+    box-shadow: inset 0px 0px 0px 0px;
+    border: none;
+    padding:0px;
+    width : 150px;
+    background-color: white;
+    font-size: 15px;
+    color :black;
+    font-family: Lato,Arial,Helvetica Neue,sans-serif;
+    background-color: rgb(216, 245, 157)!important;
+}
+
+.Hitinfo {
+    background: #f6f7f8;
+    height: 64px;
+    padding: 8px 12px 8px 12px;
+}
+.HitInfo__priceSuperlativeGroup{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-flow: column wrap;
+    -webkit-box-align: start;
+    align-items: flex-start;
+}
+
+.HitInfo__price{
+    -webkit-box-ordinal-group: 6;
+    order: 5;
+    display: flex;
+    white-space: nowrap;
+    margin-right: 16px;
+}
+
+#bookings {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#bookings td, #bookings th {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+#bookings th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}

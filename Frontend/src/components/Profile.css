@@ -1,0 +1,40 @@
+body{
+    padding: 0 !important;
+    color: #353e44;
+    background-color: #f4f4f4;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .mybarcontainer {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center
+  }
+
+  .myprofilecontainer {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /*don't forget prefixes*/
+    background-image: url("Calvin.jpg");
+    background-position: center center;
+    /* as mentioned by Vad: */
+    background-size: cover;
+    margin: auto
+  }
+
+  #year{
+    box-shadow: inset 0px 0px 0px 0px;
+    border: none;
+    padding:0px;
+    width : 60px;
+    background-color: #f4f4f4;
+  }

@@ -1,0 +1,110 @@
+body{
+    padding: 0 !important;
+    color: #353e44;
+    background-color: #f4f4f4;
+  }
+
+  .navbar.navbar-default >.container{
+    margin-left : 0px;
+    margin-right: 0px;
+    max-width: 1800px;
+ }
+  
+  .center {
+      margin-left: auto;
+      margin-right: auto;
+      width: auto; /* Your width */
+  }
+  
+  .navbar{
+    background: #fff;
+    padding: 14px 0;
+    margin-bottom: 0;
+  }
+  
+  #yourdiv {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      width: auto; /* Your width */
+  }
+  h1 {font-weight: lighter; 
+      font-family: 'Calibri';
+      font-size: 295%
+  }
+  
+  h2 {font-weight: lighter; 
+    font-family: 'Calibri';
+  }
+  
+  .col-sm-6 {
+    background-color: white;
+    border:1px solid #9499a1;
+    width: 30%;
+  }
+  hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 60%;
+    color: #F5F5F5;
+  }
+  .mysubmitbtn {
+    width:100%;
+  }
+  .btn:hover {
+    background-color:rgba(255, 68, 0, 0.726);
+  }
+  .mybtn {
+    width:100%;
+  }
+  .mybtn:hover {
+    background-color:rgba(49, 68, 240, 0.966);
+  }
+  .mydiv{
+    width: 100%; height: 20px; border-bottom: solid rgb(170, 167, 167); text-align: center
+  }
+  .myspan{
+    font-size: 19px; background-color:white; padding: 0 10px;font-style: italic;
+  }
+  .facebook_button {
+    display: inline-block;
+    background: #627aac url(facebook_small.png) left no-repeat;
+    border-top: 1px solid #29447e;
+    border-right: 1px solid #29447e;
+    border-bottom: 1px solid #1a356e;
+    border-left: none;
+    height: 30px;
+    padding-right: 7px;
+    padding-left: 29px;
+    font-weight: lighter;
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+    font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+    line-height: 22px;
+    cursor: pointer;
+  }
+
+  .google_button{
+    display: inline-block;
+    border-top: 1px solid #787878;
+    border-right: 1px solid #787878;
+    border-bottom: 1px solid #787878;
+    border-left: 1px solid #787878;;
+    height: 30px;
+    padding-right: 7px;
+    padding-left: 29px;
+    font-weight: lighter;
+    font-size: 17px;
+    color: #787878;
+    text-decoration: none;
+    background: #f3f3f3 url(google_logo.png) left no-repeat;
+    line-height: 22px;
+    cursor: pointer;
+}
+  button#opener_guid {border:0;background:none; color: rgb(34, 45, 199); cursor:pointer;}
+  

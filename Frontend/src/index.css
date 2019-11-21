@@ -1,0 +1,5 @@
+button[type="submit"] {
+  margin-right: 10px;
+}
+
+button:focus {outline: 0;}
