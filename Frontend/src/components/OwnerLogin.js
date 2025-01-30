@@ -138,7 +138,7 @@ class OwnerLogin extends Component{
                 <div class="container">
                 <div class="col-sm-6 col-sm-offset-6" style={{left: "400px"}}>
                 <div class="login-form">
-                    <h2>Owner Account Login</h2>  
+                    <h2 class="loginT">Owner Account Login</h2>  
                     <hr width="98%"></hr>         
                     <br></br>
                             <div class="form-group">
@@ -147,7 +147,7 @@ class OwnerLogin extends Component{
                             <div class="form-group">
                                 <input onChange = {this.passwordChangeHandler} type="password" class="form-control" name="password" placeholder="Password" required/>
                             </div>
-                            <button id="opener_guid" type="button">Forgot Password?</button>
+                            <button id="opener_guid"class="forgot" type="button">Forgot Password?</button>
                             <br></br>
                             <br></br>
                             <div>
@@ -173,11 +173,17 @@ class OwnerLogin extends Component{
                 </div>
                 </div>
                 <br></br>
-                <div class="center" id= "yourdiv">
-                    <font size="1">Use of this Web site constitutes acceptance of the HomeAway.com Terms and Conditions and Privacy Policy.
-                        <br></br>
-                        ©2018 HomeAway. All rights reserved.</font>
-                </div>
+                <div class="center" id="yourdiv">
+    <font size="1">Use of this Web site constitutes acceptance of the HomeAway.com Terms and Conditions and Privacy Policy.
+        <br></br>
+        ©<span id="current-year"></span> HomeAway. All rights reserved.
+    </font>
+</div>
+
+<script>
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+</script>
+
             </div>
         )
     }

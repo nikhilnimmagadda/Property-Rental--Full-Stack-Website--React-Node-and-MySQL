@@ -78,11 +78,17 @@ class Signup1 extends Component{
                     </div>
                 </div>
                 <br></br>
-                <div class="center" id= "yourdiv">
+                <div class="center" id="yourdiv">
                 <font size="1">Use of this Web site constitutes acceptance of the HomeAway.com Terms and Conditions and Privacy Policy.
                     <br></br>
-                    ©2018 HomeAway. All rights reserved.</font>
-                </div>
+                    ©<span id="current-year"></span> HomeAway. All rights reserved.
+                </font>
+            </div>
+
+            <script>
+                document.getElementById('current-year').textContent = new Date().getFullYear();
+            </script>
+
             </div>
         )
     }
